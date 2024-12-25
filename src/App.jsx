@@ -80,7 +80,11 @@ const App = () => {
         <div className="text-gray-600 text-center">
           <p>
             Döviz ve altın kurları, güncel olarak{" "}
-            <a className="text-teal-900" href="https://finans.truncgil.com/">
+            <a
+              className="text-teal-900"
+              target="_blank"
+              href="https://finans.truncgil.com/"
+            >
               finans.truncgil.com
             </a>{" "}
             sitesinde yayınlanan json url üzerinden çekilerek bu sayfada
@@ -88,11 +92,16 @@ const App = () => {
           </p>
           <p className="text-red-700">
             Verilerin güncelliği yada doğruluğu konusunda garanti
-            verilmemektedir. Maddi zararlarınızdan sorumlu değilim.
+            verilmemektedir. Maddi zararlarınızda sorumluluk kabul
+            edilmemektedir.
           </p>
           <p>
             Kodlar için{" "}
-            <a className="text-teal-900" href="">
+            <a
+              target="_blank"
+              className="text-teal-900"
+              href="https://github.com/thealiyasar/react-doviz"
+            >
               Github Adresini Ziyaret Edin.
             </a>
           </p>

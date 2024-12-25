@@ -1,8 +1,24 @@
-# React + Vite
+# React + Vite Doviz - Altın Kurları
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+Döviz ve altın kurları, güncel olarak 
+<a
+    className="text-teal-900"
+    target="_blank"
+    href="https://finans.truncgil.com/"
+>
+    finans.truncgil.com
+</a> 
+sitesinde yayınlanan json url üzerinden çekilerek bu sayfada
+gösterilmektedir.
+</p>
+<p className="text-red-700">
+Verilerin güncelliği yada doğruluğu konusunda garanti
+verilmemektedir. Maddi zararlarınızda sorumluluk kabul edilmemektedir.
+</p>
 
-Currently, two official plugins are available:
+Bağımlılıkları Yükleyin :
+`npm install`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeyi Başlatın :
+`npm run dev`
